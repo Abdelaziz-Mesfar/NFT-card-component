@@ -1,0 +1,86 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+    
+    body{
+      background-color: hsl(217, 54%, 11%);
+      font-family: Outfit;
+      font-size: 18px;
+    }
+    .card-container {
+      background-color: hsl(216, 50%, 16%);
+      max-width: 350px;
+      padding: 1rem ;
+      margin: 1rem auto;
+      display: flex;
+      flex-direction: column;
+      border-radius: 5px;
+    }
+    
+    .equilibrium {
+      margin-left: auto;
+      margin-right: auto;
+      width: 340px;
+      height: 340px;
+      border-radius: 5px;
+    }
+
+    .avatar {
+      width: 30px;
+      height: 30px;
+      padding-top: 10px;
+      border-color: white;
+    }
+
+    hr {
+      border: 0.5px solid hsl(215, 51%, 70%);
+      width: 340px;
+    }
+
+    .info {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .creation {
+      display: flex;
+    }
+    .creation-2 {
+      padding-left: 10px;
+      color: hsl(215, 51%, 70%);
+    }
+    .balance {
+      color: hsl(178, 100%, 50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .eth{
+      padding-left: 5px;
+    }
+
+    .time {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:hsl(215, 51%, 70%);
+    }
+    .ref, span {
+      color: white;
+    }
+    .discription {
+      color: hsl(215, 51%, 70%);
+    }
+
+    .ref:hover{
+      color: hsl(178, 100%, 50%);
+      cursor: pointer;
+    }
+    span:hover{
+      color: hsl(178, 100%, 50%);
+      cursor: pointer;
+    }
+
+    .equilibrium:hover{
+      cursor: pointer;
+      background-image:url("./images/icon-ethereum.svg");
+    }
